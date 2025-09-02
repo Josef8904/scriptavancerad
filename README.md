@@ -1,12 +1,23 @@
-# React + Vite
+# Nyhetssida
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Detta är en skoluppgift byggd med **React + Vite**.  
+Syftet är att skapa en nyhetssida där artiklar kan hämtas från ett API samt att användaren kan skapa egna artiklar.
 
-Currently, two official plugins are available:
+## Funktionalitet (krav för G)
+- Visa artiklar från [DummyJSON API](https://dummyjson.com/).
+- Skapa egna artiklar (sparas i LocalStorage).
+- Radera egna artiklar, men inte API-artiklar.
+- Visa toast-meddelanden vid skapande och radering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Extra funktionalitet (krav för VG)
+- Detaljsida för artiklar där man kan uppdatera likes/dislikes.
+- Använda ett komponentbibliotek (ex. Material UI).
+- Routing med `react-router`.
+- Global state med ett bibliotek (ex. Zustand).
 
-## Expanding the ESLint configuration
+## Installation & körning
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Klona projektet:
+   ```bash
+   git clone <repo-url>
+   cd nyhetsida1
