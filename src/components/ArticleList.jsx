@@ -11,6 +11,7 @@ const ArticleList = ({ articles, onDelete }) => {
       {articles.map((article) => (
         <ArticleCard
           key={article.id}
+          id={article.id}
           title={article.title}
           body={article.body}
           isLocal={article.isLocal}
